@@ -1,9 +1,57 @@
-<mxfile host="app.diagrams.net" modified="2023-03-27T09:00:39.524Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="21.1.0" etag="aoqJ4WSkB6ij_18vy3gM" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-27T09:20:12.933Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="Cc-IYgjmokry0XII2zoq" version="21.1.0" type="github">
   <diagram name="第 1 页" id="D7cHuHpqmKT0e729MPXu">
-    <mxGraphModel>
+    <mxGraphModel dx="1306" dy="842" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="6B-Ez8rcvdGtk-LPzqOY-6" value="&lt;font style=&quot;font-size: 28px;&quot;&gt;应用层&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6B-Ez8rcvdGtk-LPzqOY-7" value="&lt;font style=&quot;font-size: 28px;&quot;&gt;工具层&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6B-Ez8rcvdGtk-LPzqOY-8" value="&lt;font style=&quot;font-size: 28px;&quot;&gt;分析层&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6B-Ez8rcvdGtk-LPzqOY-9" value="&lt;font style=&quot;font-size: 28px;&quot;&gt;数据层&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6B-Ez8rcvdGtk-LPzqOY-10" value="&lt;font style=&quot;font-size: 28px;&quot;&gt;可视化图表&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="600" y="140" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6B-Ez8rcvdGtk-LPzqOY-11" value="&lt;font style=&quot;font-size: 28px;&quot;&gt;场景化编排&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="820" y="140" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6B-Ez8rcvdGtk-LPzqOY-12" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="820" as="sourcePoint" />
+            <mxPoint x="160" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6B-Ez8rcvdGtk-LPzqOY-13" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="830" as="sourcePoint" />
+            <mxPoint x="520" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6B-Ez8rcvdGtk-LPzqOY-15" value="&lt;font style=&quot;font-size: 28px;&quot;&gt;实例监控指标&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="240" y="620" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6B-Ez8rcvdGtk-LPzqOY-16" value="&lt;font style=&quot;font-size: 28px;&quot;&gt;日志&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="600" y="620" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6B-Ez8rcvdGtk-LPzqOY-17" value="&lt;font style=&quot;font-size: 28px;&quot;&gt;事件&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="710" y="620" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6B-Ez8rcvdGtk-LPzqOY-18" value="&lt;font style=&quot;font-size: 28px;&quot;&gt;相关监控指标&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="820" y="620" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6B-Ez8rcvdGtk-LPzqOY-19" value="&lt;b&gt;&lt;font style=&quot;font-size: 44px;&quot;&gt;诊断平台&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="40" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6B-Ez8rcvdGtk-LPzqOY-20" value="&lt;b&gt;&lt;font style=&quot;font-size: 44px;&quot;&gt;诊断平台 2.0&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="40" width="280" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
