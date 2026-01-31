@@ -1,9 +1,144 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="26.0.2">
   <diagram name="第 1 页" id="r6oYGYcuQT7dlC0U7m_c">
-    <mxGraphModel>
+    <mxGraphModel dx="2070" dy="1308" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="5NN4yhfmS3W7EP4lgvSh-221" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="130" width="900" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="5NN4yhfmS3W7EP4lgvSh-181" value="&lt;font style=&quot;font-size: 20px&quot;&gt;APT 统一训练平台：多平台接入，统一调度抽象&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="90" y="60" width="1000" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5NN4yhfmS3W7EP4lgvSh-182" value="AIStudio&lt;div&gt;平台&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1976D2;fontColor=#1976D2;" vertex="1" parent="1">
+          <mxGeometry x="130" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5NN4yhfmS3W7EP4lgvSh-183" value="Theta&lt;br&gt;原子化接口" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#388E3C;fontColor=#388E3C;" vertex="1" parent="1">
+          <mxGeometry x="290" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5NN4yhfmS3W7EP4lgvSh-184" value="mdata&lt;br&gt;平台" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#F57C00;fontColor=#F57C00;" vertex="1" parent="1">
+          <mxGeometry x="450" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5NN4yhfmS3W7EP4lgvSh-185" value="Agent&lt;br&gt;平台" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=#7B1FA2;fontColor=#7B1FA2;" vertex="1" parent="1">
+          <mxGeometry x="610" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5NN4yhfmS3W7EP4lgvSh-186" value="a6o&lt;br&gt;CLI/SDK" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFEBEE;strokeColor=#D32F2F;fontColor=#D32F2F;" vertex="1" parent="1">
+          <mxGeometry x="770" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5NN4yhfmS3W7EP4lgvSh-187" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1976D2;" vertex="1" parent="1">
+          <mxGeometry x="90" y="480" width="900" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="5NN4yhfmS3W7EP4lgvSh-188" value="&lt;b&gt;流程编排层 (Orchestration Layer)&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#1976D2;" vertex="1" parent="1">
+          <mxGeometry x="110" y="490" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5NN4yhfmS3W7EP4lgvSh-189" value="&lt;b&gt;APT 统一训练平台入口&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#1976D2;" vertex="1" parent="1">
+          <mxGeometry x="130" y="300" width="770" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="5NN4yhfmS3W7EP4lgvSh-190" value="&lt;b&gt;Train Controller&lt;/b&gt;&lt;br&gt;&lt;br&gt;• EngineProxy&lt;br&gt;• BatchDispatcher&lt;br&gt;• GradientAggregator" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#1976D2;" vertex="1" parent="1">
+          <mxGeometry x="360" y="537.5" width="200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="5NN4yhfmS3W7EP4lgvSh-191" value="&lt;b&gt;Control Plane&lt;/b&gt;&lt;br&gt;(控制平面)&lt;br&gt;&lt;br&gt;• HealthMonitor&lt;br&gt;• RecoverHandler&lt;br&gt;• StatsTracker" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#1976D2;" vertex="1" parent="1">
+          <mxGeometry x="575" y="550" width="190" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="5NN4yhfmS3W7EP4lgvSh-192" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#F57C00;" vertex="1" parent="1">
+          <mxGeometry x="90" y="810" width="900" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="5NN4yhfmS3W7EP4lgvSh-193" value="&lt;b&gt;Engine 层 (Engine Layer)&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#F57C00;" vertex="1" parent="1">
+          <mxGeometry x="110" y="820" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5NN4yhfmS3W7EP4lgvSh-194" value="&lt;b&gt;Train Engine&lt;/b&gt;&lt;br&gt;(训练引擎)&lt;br&gt;&lt;br&gt;FSDPEngine | MegatronEngine | FSDPLMEngine" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#F57C00;" vertex="1" parent="1">
+          <mxGeometry x="110" y="850" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="5NN4yhfmS3W7EP4lgvSh-195" value="&lt;b&gt;Inference Engine&lt;/b&gt;&lt;br&gt;(推理引擎)&lt;br&gt;&lt;br&gt;SGLangEngine | vLLMEngine" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#F57C00;" vertex="1" parent="1">
+          <mxGeometry x="430" y="850" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="5NN4yhfmS3W7EP4lgvSh-196" value="&lt;b&gt;统一 Engine API:&lt;/b&gt; initialize() | train_batch() | generate() | save() | health_check()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#F57C00;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="180" y="770" width="700" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5NN4yhfmS3W7EP4lgvSh-197" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=#7B1FA2;" vertex="1" parent="1">
+          <mxGeometry x="90" y="1050" width="900" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="5NN4yhfmS3W7EP4lgvSh-198" value="&lt;b&gt;硬件资源抽象层 (HAL)&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#7B1FA2;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1060" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5NN4yhfmS3W7EP4lgvSh-199" value="&lt;b&gt;Scheduler&lt;/b&gt;&lt;br&gt;(调度器)&lt;br&gt;&lt;br&gt;• LocalScheduler&lt;br&gt;&lt;font color=&quot;#1976D2&quot;&gt;• Kubemaker → AIStudio&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#388E3C&quot;&gt;• TrainStrategy → Theta&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#7B1FA2;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1110" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="5NN4yhfmS3W7EP4lgvSh-200" value="&lt;b&gt;ResourceManager&lt;/b&gt;&lt;br&gt;(资源管理)&lt;br&gt;&lt;br&gt;• AllocationMode&lt;br&gt;• WorkerManager&lt;br&gt;• PlacementGroup" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#7B1FA2;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1110" width="240" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="5NN4yhfmS3W7EP4lgvSh-201" value="&lt;b&gt;WeightSync&lt;/b&gt;&lt;br&gt;(权重同步)&lt;br&gt;&lt;br&gt;• DiskSync&lt;br&gt;• NCCLSync&lt;br&gt;• TensorSync" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#7B1FA2;" vertex="1" parent="1">
+          <mxGeometry x="670" y="1110" width="240" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="5NN4yhfmS3W7EP4lgvSh-202" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#388E3C;" vertex="1" parent="1">
+          <mxGeometry x="90" y="1320" width="900" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="5NN4yhfmS3W7EP4lgvSh-203" value="&lt;b&gt;基础设施层 (Infrastructure)&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#388E3C;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1330" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5NN4yhfmS3W7EP4lgvSh-204" value="&lt;b&gt;AIStudio GPU 集群&lt;/b&gt;&lt;br&gt;(RayJob/Pod)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#388E3C;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1370" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5NN4yhfmS3W7EP4lgvSh-205" value="&lt;b&gt;Theta 原子化资源池&lt;/b&gt;&lt;br&gt;(TrainJob)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#388E3C;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1370" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5NN4yhfmS3W7EP4lgvSh-206" value="&lt;b&gt;Shared Storage&lt;/b&gt;&lt;br&gt;(Checkpoint / Dataset / Weights)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#388E3C;" vertex="1" parent="1">
+          <mxGeometry x="670" y="1370" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5NN4yhfmS3W7EP4lgvSh-207" style="endArrow=classic;html=1;strokeColor=#1976D2;strokeWidth=2;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="5NN4yhfmS3W7EP4lgvSh-182" target="5NN4yhfmS3W7EP4lgvSh-189">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5NN4yhfmS3W7EP4lgvSh-208" style="endArrow=classic;html=1;strokeColor=#388E3C;strokeWidth=2;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="5NN4yhfmS3W7EP4lgvSh-183" target="5NN4yhfmS3W7EP4lgvSh-189">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5NN4yhfmS3W7EP4lgvSh-209" style="endArrow=classic;html=1;strokeColor=#F57C00;strokeWidth=2;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="5NN4yhfmS3W7EP4lgvSh-184" target="5NN4yhfmS3W7EP4lgvSh-189">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5NN4yhfmS3W7EP4lgvSh-210" style="endArrow=classic;html=1;strokeColor=#7B1FA2;strokeWidth=2;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="5NN4yhfmS3W7EP4lgvSh-185" target="5NN4yhfmS3W7EP4lgvSh-189">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5NN4yhfmS3W7EP4lgvSh-211" style="endArrow=classic;html=1;strokeColor=#D32F2F;strokeWidth=2;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="5NN4yhfmS3W7EP4lgvSh-186" target="5NN4yhfmS3W7EP4lgvSh-189">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5NN4yhfmS3W7EP4lgvSh-212" style="endArrow=classic;html=1;strokeColor=#1976D2;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5NN4yhfmS3W7EP4lgvSh-223" target="5NN4yhfmS3W7EP4lgvSh-190">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="630" as="sourcePoint" />
+            <mxPoint x="350" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5NN4yhfmS3W7EP4lgvSh-213" style="endArrow=classic;html=1;strokeColor=#1976D2;strokeWidth=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="5NN4yhfmS3W7EP4lgvSh-190" target="5NN4yhfmS3W7EP4lgvSh-196">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="590" as="sourcePoint" />
+            <mxPoint x="550" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5NN4yhfmS3W7EP4lgvSh-214" style="endArrow=classic;html=1;strokeColor=#F57C00;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5NN4yhfmS3W7EP4lgvSh-192" target="5NN4yhfmS3W7EP4lgvSh-197">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="950" as="sourcePoint" />
+            <mxPoint x="250" y="1050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5NN4yhfmS3W7EP4lgvSh-215" style="endArrow=classic;html=1;strokeColor=#1976D2;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="1230" as="sourcePoint" />
+            <mxPoint x="230" y="1320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5NN4yhfmS3W7EP4lgvSh-216" style="endArrow=classic;html=1;strokeColor=#388E3C;strokeWidth=2;entryX=0.467;entryY=0.016;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="5NN4yhfmS3W7EP4lgvSh-202">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="1230" as="sourcePoint" />
+            <mxPoint x="510" y="1310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5NN4yhfmS3W7EP4lgvSh-219" value="&lt;b&gt;Data Plane&lt;/b&gt;&lt;br&gt;(数据平面)&lt;br&gt;&lt;br&gt;•Loader&lt;br&gt;• Saver" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#1976D2;" vertex="1" parent="1">
+          <mxGeometry x="780" y="550" width="190" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="5NN4yhfmS3W7EP4lgvSh-222" value="&lt;b&gt;产品透出层 (Product Exposure)&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="110" y="140" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5NN4yhfmS3W7EP4lgvSh-223" value="&lt;b&gt;Trainer&lt;/b&gt;&lt;br&gt;(场景编排器)&lt;br&gt;&lt;br&gt;• SFTTrainer&lt;br&gt;• DPOTrainer&lt;br&gt;• GRPOTrainer&lt;br&gt;• PPOTrainer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#1976D2;" vertex="1" parent="1">
+          <mxGeometry x="120" y="537.5" width="200" height="150" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
